@@ -1,0 +1,5 @@
+<div *ngFor='let markLine of board; let i = index'>
+  <button *ngFor='let mark of markLine; let j = index'
+    [ngStyle]='BUTTON_STYLE'
+    (click)='onClickButton(i, j)'>{{mark}}</button>
+</div>
