@@ -1,6 +1,6 @@
 誰でも知っているゲーム「[三目並べ](https://ja.wikipedia.org/wiki/三目並べ)」を実装することを通じて、2つのフレームワークにおける書き方を比較する記事です。
 
-- React編……[三目並べに見るReactとAngularの比較(React編)]()
+- React編……[三目並べに見るReactとAngularの比較(React編)](https://www.ipride.co.jp/blog/2769)
 - Angular編……ここ
 
 # 環境構築
