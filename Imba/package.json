@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "imba src/server.imba",
-    "dev":  "webpack-dev-server --content-base dist/",
+    "dev": "webpack-dev-server --content-base dist/",
     "build": "webpack",
     "watch": "webpack --watch --progress --colors --display-modules"
   },
@@ -25,9 +25,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.2",
-    "imba": "^1.4.0",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.11.1"
+    "imba": "^1.4.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
   }
 }
