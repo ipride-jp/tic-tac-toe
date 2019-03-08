@@ -10,11 +10,12 @@
 
 - React……「`yarn start`」で http://localhost:3000/ にデバッグビルド、「`yarn build`」でリリースビルド
 - Angular……「`ng serve`」で http://localhost:4200/ にデバッグビルド、「`ng build`」でリリースビルド
+- Imba……「`npm run dev`」で http://localhost:8080/ にデバッグビルド
 
 ## 備考
 
-- 作成時のメモを別途Markdown形式で置いてあります
-- React版を作ってからAngular版を作りました
+- React版を作ってからAngular版・Imba版を作りました
 - 全体的な感想としては、
   - React……小さな粒度のコンポーネントを積み上げるので書きやすい
   - Angular……オブジェクト指向を意識して書けるので便利
+  - Imba……記述量は少ないが癖が強く、資料が少ない
