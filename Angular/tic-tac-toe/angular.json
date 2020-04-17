@@ -136,5 +136,8 @@
       }
     }
   },
-  "defaultProject": "tic-tac-toe"
+  "defaultProject": "tic-tac-toe",
+  "cli": {
+    "analytics": "72f32519-2d7f-4fa7-94d6-28f711bf2fb0"
+  }
 }
