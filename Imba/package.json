@@ -14,7 +14,8 @@
     "start": "imba src/server.imba",
     "dev": "webpack-dev-server --content-base dist/",
     "build": "webpack",
-    "watch": "webpack --watch --progress --colors --display-modules"
+    "watch": "webpack --watch --progress --colors --display-modules",
+    "upgrade-interactive": "npm-check --update"
   },
   "files": [],
   "directories": {},
@@ -25,11 +26,12 @@
   },
   "license": "MIT",
   "dependencies": {
-    "imba": "^1.4.0"
+    "imba": "^1.5.2"
   },
   "devDependencies": {
-    "webpack": "^4.29.5",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.2.1"
+    "npm-check": "^5.9.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
